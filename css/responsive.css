@@ -1,0 +1,115 @@
+/*Media - Stylesheet*/
+@media (min-width: 1700px) and (max-width: 14000px){
+}
+@media (min-width: 1220px) and (max-width: 1370px) {
+    .heading {
+        font-size: 32px;
+    }
+    .nav-cus {
+        padding: 20px 0px;
+    }
+    .nav-cus .logo a img {
+        width: 100px;
+    }
+    .nav-cus ul > li > a{
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+    .nav-cus .search-box{
+        padding: 11px 0px;
+    }
+    .home-slider .slider-txt{
+        font-size: 40px;
+        height: 86px;
+        line-height: 41px;
+    }
+    .home-slider .carousel-indicators button{
+        width: 17px;
+        height: 0px;
+        border-top: 7px solid transparent;
+    }
+    .home-about .ab-container {
+        width: 60%;
+    }
+    .home-about .right-img,
+    .home-about .left-img{
+        width: 220px;
+    }
+    .home-about h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        margin-top: 12px;
+    }
+    .home-about p{
+        font-size: 19px;
+        line-height: 34px;
+    }
+    .home-about a {
+        padding: 4px 24px;
+        padding-top: 3px;
+        margin-top: 58px;
+        font-size: 18px;
+    }
+    .home-services {
+        padding: 85px 0px;
+    }
+    .home-services .container-cus{
+        width: 75%;
+    }
+    .home-services h2{
+        margin-bottom: 56px;
+    }
+    .home-services .bx-row h3 {
+        font-size: 20px;
+    }
+    .home-services .bx-row p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .home-health .container-cus{
+        width: 75%;
+    }
+    .home-health h2{
+        margin-bottom: 70px;
+    }
+    .home-health .blue-bar{
+        height: 5px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .health-banner p{
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .home-health .bx-row{
+        column-gap: 18px;
+    }
+    .home-health .bx-row .bx .img p span{
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .blue-bar-ful .blue-bar{
+        height: 5px;
+        margin-top: 60px;
+        margin-bottom: 67px;
+    }
+    .home-contact {
+        padding: 90px 0px;
+    }
+    .home-contact h2{
+        font-size: 33px;
+        margin-bottom: 26px;
+    }
+    .home-contact p{
+        font-size: 25px;
+    }
+}
+@media (min-width: 0px) and (max-width: 1024px) {
+}
+@media (min-width: 0px) and (max-width: 769px) {
+}
+@media (min-width: 0px) and (max-width: 569px) {
+}
+@media (min-width: 0px) and (max-width: 360px) {
+}
