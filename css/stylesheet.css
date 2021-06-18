@@ -63,9 +63,40 @@ a{
   clear: both;
 }
 /*home*/
+/*top nav*/
+.top-nav{
+  background: #3543a3;
+}
+.top-nav p{
+  float: left;
+  color: white;
+  font-size: 13px;
+  padding: 5px 0px;
+  text-transform: uppercase;
+}
+.top-nav ul{
+  float: right;
+}
+.top-nav ul li{
+  display: inline-block;
+  margin-left: 9px;
+}
+.top-nav ul li a{
+
+}
+.top-nav ul li a svg{
+  color: white;
+  width: 17px;
+}
+.top-nav ul li:hover a svg{
+  color: #d6d6d6;
+}
+.top-nav ul li:first-child a svg{
+  width: 11px;
+}
 /*navbar*/
 .nav-cus{
-  padding: 26px 0px;
+  padding: 17px 0px;
 }
 .nav-cus .container-cus{
 
@@ -84,6 +115,7 @@ a{
 }
 .nav-cus ul > li{
   display: inline-block;
+  position: relative;
 }
 .nav-cus ul > li > a{
   display: block;
@@ -93,6 +125,10 @@ a{
   font-weight: 600;
   position: relative;
   font-size: 15px;
+  transition: color 0.5s ease-in-out;
+}
+.nav-cus ul > li > a:hover{
+  color: #2e3192;
 }
 .nav-cus ul > li > a::after{
   content: '';
@@ -119,22 +155,32 @@ a{
   margin: auto;
   margin-left: 4px;
 }
-.nav-cus ul > li .dropdown-menu{
+.nav-cus ul > li .c-dropdown-menu{
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 22;
   padding: 5px 0px;
   border-radius: 0px;
   background: rgb(46 49 146 / 90%);
+  display: none;
 }
-.nav-cus ul > li .dropdown-menu li{
+.nav-cus ul > li .c-dropdown-menu li{
   display: block;
 }
-.nav-cus ul > li .dropdown-menu li a{
+.nav-cus ul > li .c-dropdown-menu li a{
   color: white;
   font-weight: 400;
   padding: 8px 23px;
   font-size: 14px;
+  transition: all 0.5s ease-in-out;
 }
-.nav-cus ul > li .dropdown-menu li a::after{
+.nav-cus ul > li .c-dropdown-menu li a::after{
   content: none;
+}
+.nav-cus ul > li .c-dropdown-menu li a:hover{
+  background: #3948ac;
+  color: #dedede;
 }
 .nav-cus .search-box{
   float: right;
@@ -173,6 +219,12 @@ a{
 28deg
 );
 }
+.home-slider .carousel-inner img{
+  transition: transform 0.7s ease-in-out;
+}
+.home-slider .carousel-inner .carousel-item:hover img.d-block{
+  transform: scale(1.1);
+}
 .home-slider .slider-txt{
   position: absolute;
   z-index: 2;
@@ -180,12 +232,16 @@ a{
   left: 18%;
   font-size: 52px;
   font-weight: 800;
-  width: 390px;
+  width: 450px;
   margin: auto;
   top: 0px;
   bottom: 0px;
   height: 116px;
   line-height: 55px;
+  transition: left 0.7s ease-in-out;
+}
+.home-slider .carousel-item:hover .slider-txt{
+  left: 16%
 }
 .home-slider .slider-txt span{
   font-weight: 500;
@@ -309,6 +365,22 @@ a{
   font-weight: 700;
   margin-bottom: 60px;
 }
+.home-services .half-color-bx{
+  overflow: hidden;
+}
+.home-services .half-color-bx::after{
+  content: '';
+  width: 170%;
+  height: 95%;
+  top: -57%;
+  left: -32%;
+  background-color: rgb(46 49 146 / 70%);
+  z-index: 0;
+  position: absolute;
+  transform: rotate(
+-33.2deg
+);
+}
 .home-services .bx-row{
   display: grid;
   grid-template-columns: 53% 42%;
@@ -362,6 +434,9 @@ a{
 .home-services .bx-reverse{
   grid-template-columns: 42% 53%;
   column-gap: 5%;
+}
+.home-services .bx-reverse .half-color-bx::after{
+  background-color: rgb(224 32 39 / 60%);
 }
 /*home-health*/
 .home-health{

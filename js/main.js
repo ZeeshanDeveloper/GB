@@ -20,11 +20,59 @@ $(".mbl-dot-nav-opener").click(function () {
     });
 });*/
 /*mobile nav ropdown*/
-$(".mbl-nav-opener").click(function () {
-    $('.mbl-nav-opener .mbl-nav-drop').animate({
-        height: 'toggle'
-    });
+$(".nav-cus ul .c-dropdown").click(function () {
+    /*    let ele = document.getElementsByClassName("c-dropdown-menu");
+        var i;
+        for (i = 0; i < ele.length; i++) {
+            let openDropdown = ele[i];
+            if (openDropdown.classList.contains('show')) {
+                $('.nav-cus ul .c-dropdown .show').animate({
+                    height: 'toggle'
+                });
+                $('.nav-cus ul .c-dropdown .show').removeClass("show");
+            }
+            else {
+                $(this).find('.c-dropdown-menu').animate({
+                    height: 'toggle'
+                });
+                $(this).find('.c-dropdown-menu').addClass("show");
+            }
+        }*/
+    if ($(this).find('.c-dropdown-menu').hasClass("show")) {
+        $('.nav-cus ul .c-dropdown .show').animate({
+            height: 'toggle'
+        });
+        $('.nav-cus ul .c-dropdown .c-dropdown-menu').removeClass("show");
+    }
+    else {
+        $('.nav-cus ul .c-dropdown .show').animate({
+            height: 'toggle'
+        });
+        $('.nav-cus ul .c-dropdown .c-dropdown-menu').removeClass("show");
+
+        $(this).find('.c-dropdown-menu').animate({
+            height: 'toggle'
+        });
+        $(this).find('.c-dropdown-menu').addClass("show");
+    }
 });
+
+window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+        let dropdowns = document.getElementsByClassName("c-dropdown-menu");
+        let i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                $('.nav-cus ul .c-dropdown .show').animate({
+                    height: 'toggle'
+                });
+                $('.nav-cus ul .c-dropdown .c-dropdown-menu').removeClass("show");
+            }
+        }
+    }
+}
+
 
 
 

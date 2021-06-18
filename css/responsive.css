@@ -3,10 +3,13 @@
 }
 @media (min-width: 1220px) and (max-width: 1370px) {
     .heading {
-        font-size: 32px;
+        font-size: 28px;
+    }
+    .top-nav p{
+        font-size: 12px;
     }
     .nav-cus {
-        padding: 20px 0px;
+        padding: 12px 0px;
     }
     .nav-cus .logo a img {
         width: 100px;
@@ -14,6 +17,10 @@
     .nav-cus ul > li > a{
         padding: 13px 20px;
         font-size: 14px;
+    }
+    .nav-cus ul > li .c-dropdown-menu li a {
+        padding: 4px 23px;
+        font-size: 13px;
     }
     .nav-cus .search-box{
         padding: 11px 0px;
@@ -36,13 +43,13 @@
         width: 220px;
     }
     .home-about h2 {
-        font-size: 28px;
-        margin-bottom: 30px;
-        margin-top: 12px;
+        font-size: 26px;
+        margin-bottom: 25px;
+        margin-top: 6px;
     }
     .home-about p{
-        font-size: 19px;
-        line-height: 34px;
+        font-size: 17px;
+        line-height: 28px;
     }
     .home-about a {
         padding: 4px 24px;
@@ -51,13 +58,13 @@
         font-size: 18px;
     }
     .home-services {
-        padding: 85px 0px;
+        padding: 66px 0px;
     }
     .home-services .container-cus{
         width: 75%;
     }
     .home-services h2{
-        margin-bottom: 56px;
+        margin-bottom: 44px;
     }
     .home-services .bx-row h3 {
         font-size: 20px;
@@ -70,7 +77,7 @@
         width: 75%;
     }
     .home-health h2{
-        margin-bottom: 70px;
+        margin-bottom: 60px;
     }
     .home-health .blue-bar{
         height: 5px;
@@ -78,8 +85,8 @@
         margin-bottom: 60px;
     }
     .health-banner p{
-        font-size: 36px;
-        line-height: 38px;
+        font-size: 30px;
+        line-height: 34px;
     }
     .home-health .bx-row{
         column-gap: 18px;
@@ -91,18 +98,18 @@
     }
     .blue-bar-ful .blue-bar{
         height: 5px;
-        margin-top: 60px;
-        margin-bottom: 67px;
+        margin-top: 55px;
+        margin-bottom: 50px;
     }
     .home-contact {
-        padding: 90px 0px;
+        padding: 60px 0px;
     }
     .home-contact h2{
-        font-size: 33px;
-        margin-bottom: 26px;
+        font-size: 28px;
+        margin-bottom: 24px;
     }
     .home-contact p{
-        font-size: 25px;
+        font-size: 23px;
     }
 }
 @media (min-width: 0px) and (max-width: 1024px) {
