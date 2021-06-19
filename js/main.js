@@ -19,6 +19,14 @@ $(".mbl-dot-nav-opener").click(function () {
         $("body").removeClass("lock");
     });
 });*/
+$(window).scroll(function(){
+    var sticky = $('.nav-cus'),
+        scroll = $(window).scrollTop();
+  
+    if (scroll >= 28) sticky.addClass('fixed');
+    else sticky.removeClass('fixed');
+  });
+
 /*mobile nav ropdown*/
 $(".nav-cus ul .c-dropdown").click(function () {
     /*    let ele = document.getElementsByClassName("c-dropdown-menu");
