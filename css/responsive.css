@@ -5,6 +5,9 @@
     .heading {
         font-size: 28px;
     }
+    .top-nav{
+        margin-bottom: 71.02px;
+    }
     .top-nav p{
         font-size: 12px;
     }
@@ -25,9 +28,8 @@
     .nav-cus .search-box{
         padding: 11px 0px;
     }
-    .home-slider .slider-txt{
+    .home-slider .verti-center  .slider-txt{
         font-size: 37px;
-        height: 74px;
         line-height: 36px;
     }
     .home-slider .carousel-indicators button{
@@ -96,6 +98,10 @@
         font-weight: 400;
         line-height: 26px;
     }
+    .health-c-banner p{
+        font-size: 30px;
+        line-height: 34px;
+    }
     .blue-bar-ful .blue-bar{
         height: 5px;
         margin-top: 55px;
@@ -113,6 +119,9 @@
     }
     .home-contact p{
         font-size: 19px;
+    }
+    .text-page p {
+        font-size: 17px;
     }
 }
 @media (min-width: 0px) and (max-width: 1024px) {

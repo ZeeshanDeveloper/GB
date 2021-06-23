@@ -66,7 +66,7 @@ a{
 /*top nav*/
 .top-nav{
   background: #3543a3;
-  margin-bottom: 71.02px;
+  margin-bottom: 88px;
 }
 .top-nav p{
   float: left;
@@ -249,26 +249,36 @@ a{
 .home-slider .carousel-inner .carousel-item:hover img.d-block{
   transform: scale(1.1);
 }
-.home-slider .slider-txt{
+.home-slider .verti-center{
   position: absolute;
   z-index: 2;
-  color: white;
   left: 18%;
-  font-size: 52px;
-  font-weight: 800;
-  width: 450px;
   margin: auto;
   top: 0px;
   bottom: 0px;
-  height: 116px;
-  line-height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   transition: left 0.7s ease-in-out;
 }
-.home-slider .carousel-item:hover .slider-txt{
+.home-slider .carousel-item:hover .verti-center{
   left: 16%
 }
-.home-slider .slider-txt span{
+.home-slider .verti-center .slider-txt{
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  width: 450px;
+  line-height: 50px;
+}
+.home-slider .verti-center .slider-txt span{
   font-weight: 500;
+}
+.home-slider .verti-center p{
+  color: white;
+  width: 440px;
+  text-align: justify;
+  margin-top: 12px;
 }
 .home-slider .blue-top{
   background-color: rgb(46 64 172 / 90%);
@@ -353,9 +363,10 @@ a{
   font-size: 20px;
   line-height: 44px;
   font-weight: 300;
+  margin-bottom: 14px;
 }
 .home-about a{
-  margin-top: 74px;
+  margin-top: 60px;
   display: inline-block;
   color: rgb(255 255 255 / 84%);
   font-weight: 500;
@@ -470,8 +481,8 @@ a{
   font-weight: 700;
   text-align: center;
   color: #2e3192;
-  margin-bottom: 80px;
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 .home-health .bx-row{
   display: grid;
@@ -560,6 +571,41 @@ a{
   text-align: right;
   font-size: 44px;
 }
+/*health-banner*/
+.health-c-banner{
+  position: relative;
+  margin: 80px 0px;
+}
+.health-c-banner img{
+  width: 100%;
+}
+.health-c-banner p.left{
+  left: 18%;
+}
+.health-c-banner p.right{
+  right: 18%;
+  text-align: right;
+}
+.health-c-banner p{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 390px;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  line-height: 44px;
+}
+.health-c-banner p span{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  display: block;
+}
 /*blue-bar-ful*/
 .blue-bar-ful{
 
@@ -637,4 +683,40 @@ a{
 }
 .footer .social-box .social .facebook-icon svg{
   height: 26px;
+}
+/*text page*/
+.text-page{
+  padding: 60px 0px;
+}
+.text-page h1{
+  font-weight: 700;
+  color: #ed1c24;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+.text-page p{
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.text-page .left-float-box{
+  float: right;
+  width: 25%;
+  margin-left: 4%;
+}
+.text-page .left-float-box .cert{
+  width: 60%;
+  margin: auto;
+  display: block;
+  margin-bottom: 16px;
+}
+.text-page .left-float-box .img{
+  width: 100%;
+}
+.text-page .left-float-box p{
+  background: #ed1b23;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  padding: 4px 0px;
 }
