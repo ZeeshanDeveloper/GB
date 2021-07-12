@@ -109,6 +109,7 @@ a{
   position: absolute;
   width: 100%;
   top: 28px;
+  border-bottom: 1px solid #f3f3f3;
 }
 .nav-cus .container-cus{
 
@@ -326,6 +327,10 @@ a{
   position: relative;
   z-index: 2;
   text-align: center;
+}
+.home-about.with-margin{
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .home-about .right-img{
   position: absolute;
@@ -719,4 +724,238 @@ a{
   color: white;
   font-size: 19px;
   padding: 4px 0px;
+}
+/*news-page*/
+.news-page{
+
+}
+.news-page .container-cus{
+
+}
+.news-page .date{
+  text-align: right;
+  margin: 20px 0px;
+  font-size: 17px;
+}
+.news-page .date p{
+  font-weight: 600;
+}
+.news-page .high{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 20px;
+}
+.news-page .high .high-p{
+  background: #ed1b24;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 3px 20px;
+}
+.news-page .high p{
+  font-weight: 600;
+}
+.news-page .news-grid{
+  margin-top: 24px;
+  margin-bottom: 45px;
+  display: grid;
+  grid-template-columns: 28.3% 38.62% 31.4%;
+  justify-content: space-between;
+}
+.news-page .news-grid .lft{
+
+}
+.news-page .news-grid .cent{
+
+}
+.news-page .news-grid .cent .txt{
+  padding-bottom: 0px;
+  height: 100%;
+}
+.news-page .news-grid .cent .txt .verti-cent{
+  transform: translatey(-50%);
+  top: 50%;
+  position: relative;
+  margin: auto;
+}
+.news-page .news-grid .rig{
+
+}
+.news-page .news-grid .rig .bx:first-child{
+  margin-bottom: 10px;
+}
+.news-page .news-grid .bx{
+  position: relative;
+}
+.news-page .news-grid .bx img{
+  width: 100%;
+}
+.news-page .news-grid .bx .txt{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  padding: 0px 26px;
+  padding-bottom: 24px;
+}
+.news-page .news-grid .bx .txt h2{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.news-page .news-grid .bx .txt p{
+  line-height: 20px;
+  text-align: justify;
+}
+.news-grid2{
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+.news-grid2 .top-h{
+
+}
+.news-grid2 .top-h h3{
+  font-size: 1.8rem;
+  color: #515151;
+  position: relative;
+  overflow: hidden;
+}
+.news-grid2 .top-h h3::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #333;
+}
+.news-grid2 .top-h h3 span{
+  font-weight: 600;
+  display: block;
+  float: left;
+  border-top: 5px solid #ed1b24;
+  padding: 10px 35px;
+}
+.news-grid2 .box-b{
+  margin-top: 36px;
+}
+.news-grid2 .box{
+  margin-bottom: 20px;
+}
+.news-grid2 .box a{
+  display: grid;
+  grid-template-columns: 1fr 26%;
+  grid-column-gap: 60px;
+}
+.news-grid2 .box a .lft{
+
+}
+.news-grid2 .box a p{
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+}
+.news-grid2 .box a{
+
+}
+.news-grid2 .box a img{
+  width: 100%;
+}
+.news-grid2 .box-g{
+  margin-top: 36px;
+}
+.news-grid2 .box-g .box{
+
+}
+.news-grid2 .box-g .box a{
+  grid-template-columns: 36% 1fr;
+}
+.news-grid2 .box-g .box a .lft{
+
+}
+.news-grid2 .box-g .box a .lft img{
+
+}
+.news-grid2 .box-g .box a .rgt{
+
+}
+.news-grid2 .box-g .box a .rgt p{
+  margin-bottom: 25px;
+}
+.news-grid2 .box-g .box a .rgt p:last-child{
+  margin-bottom: 0px;
+}
+/*news-insight*/
+.news-ins{
+
+}
+.news-ins .container-cus{
+
+}
+.news-ins .head{
+
+}
+.news-ins .head h1{
+  margin: 0px;
+  padding: 40px 0px;
+  text-align: center;
+  font-weight: 600;
+  color: #3543a3;
+  font-size: 2.7rem;
+  position: relative;
+}
+.news-ins .head h1::after{
+  content: '';
+  position: absolute;
+  width: 450px;
+  height: 3px;
+  background: red;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+.news-ins .head h1 span{
+  z-index: 5;
+  position: relative;
+  background: white;
+  padding: 0px 15px;
+}
+.news-ins .insight-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  margin-bottom: 90px;
+}
+.news-ins .insight-box .box{
+}
+.news-ins .insight-box .box .img{
+
+}
+.news-ins .insight-box .box .img img{
+  width: 100%;
+}
+.news-ins .insight-box .box .txt{
+  background: #f0f0f0;
+  padding: 20px 25px;
+}
+.news-ins .insight-box .box .txt .titl{
+  font-size: 21px;
+  font-weight: 600;
+  color: #ec1a22;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.news-ins .insight-box .box .txt .disc{
+  font-size: 15px;
+  text-align: justify;
+}
+.news-ins .insight-box .box .txt .read{
+  font-size: 15px;
+  margin-top: 15px;
+}
+.news-ins .insight-box .box .txt .read a{
+  color:#333;
 }

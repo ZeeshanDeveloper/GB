@@ -123,6 +123,12 @@
     .text-page p {
         font-size: 17px;
     }
+    .home-slider .verti-center{
+        left: 14%;
+    }
+    .home-slider .carousel-item:hover .verti-center{
+        left: 12%;
+    }
 }
 @media (min-width: 0px) and (max-width: 1024px) {
 }
